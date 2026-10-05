@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#A8BBA3;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 15px 30px;
+    background-color: #727D73;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: #22396F;
+    line-height: 2;
+    
+}
+footer{
+    background-color: #727D73;
+    padding: 20px;
+    padding-bottom: 50px;
+    p{
+        color:#D0DDD0 ;
+    }
+    text-align: center;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+ul{
+   color: #22396F; 
+   line-height: 2;
+
+}
+h3{
+    color: #524C42;
+}
+.profile{
+    border-radius: 50%;
+    width: 200px;
+}
+.intro{
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+}
+.Des{
+    font-family: "Playwrite CA Guides", cursive;
+    font-size: 15px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+.par{
+    font-size: 20px;
+}
+.wrapper{
+    max-inline-size: 1000px;
+    margin-inline: auto;
+    background-color: #AAB99A;
+}
+.skills{
+    margin-bottom: 70px;
+    margin-top:20px;
+}
+.about{
+    margin-bottom: 70px;
+    margin-top:20px;
+}
+.what{
+    margin-bottom: 70px;
+    margin-top:20px;
+}
+.contact{
+    margin-bottom: 50px;
+    margin-top:20px;
+}
+a:hover{
+    color: #D0DDD0;
+}
+hr{
+    border: dotted;
+}
+.logo{
+    padding: 10px;
+    border: black dashed;
+    background-color:#D0DDD0;
+    color: #22396F;
+}
